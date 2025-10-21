@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* basic theme override */
+:root{
+  --primary: #0b6eff;
+  --gold: #c79b2b;
+}
+
+html,body,#root{height:100%}
+
+.header-fixed{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 40;
+  background: white;
+  box-shadow: 0 2px 6px rgba(2,6,23,0.06);
+}
